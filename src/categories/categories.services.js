@@ -1,4 +1,4 @@
-const categoryControllers = require('./categories.controller')
+const categoryControllers = require('./categories.controllers')
 
   const getAllCategories = (req, res) => {
       categoryControllers.getAllCategories()

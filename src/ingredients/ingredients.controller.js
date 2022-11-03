@@ -27,6 +27,7 @@ const createIngredient = async (data) => {
     return response
 }
 
+
 const updateIngredient = async (id, data) => {
     const response = await Ingredients.update(data, {
         where: {
